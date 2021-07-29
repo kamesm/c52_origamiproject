@@ -1,0 +1,55 @@
+H1 {
+    color: #FFFFFF;
+}
+H1 {
+    border: solid #701034;
+    padding: 10px;
+}
+.Heading{
+    background-color: #808080;
+    display: flex;
+    justify-content: space-between;
+     
+
+}
+.Images{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.origami{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 310px;
+    border-radius: 50px;
+    position: relative;
+}
+.origami p{
+    color: #f7f2f2
+    font-size: 55px;
+    font_family: fantasy;
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.origami:hover img{
+    transform: scale(1.2);
+    opacity: 0.4;
+}
+.origami:hover p{
+    opacity: 1;
+}
+.body{
+    margin: 0px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: #701034;
+    text-decoration: none;
+}
